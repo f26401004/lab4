@@ -8,6 +8,6 @@ A.
 B.
 
 	Because the meaning of a pointer is to read the memory address in the computer, and the type decides the way to read it.
-	That means, I can use a char pointer point to an integer variable, however the data it reads may not be the data expected.
-	So, the size of a pointer must be the largest size in order to meet different types.
-	
+	Actually the pointer stores only the memory address, it will depends on the computer's system. In generall, it will use 8 
+	byte to store the memory address because 8 byte is equal to 32 bit,the magnitude of 2^32 = 4294967296 as many as a memory
+	address of a pointer stored in a computer that contain 4GB of memory capacity.
